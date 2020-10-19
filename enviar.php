@@ -1,5 +1,11 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>enviado</title>
+</head>
+<body>
 <?php
-   $destino= "edgardavid131@gmai.com"
+   $destino= "edgardavid131@gmail.com"
    $edad = $POST["edad"];
    $hombre = $POST["hombre"];
    $mujer = $POST["mujer"];
@@ -15,3 +21,5 @@
    </body>
    </html>")
 ?>
+</body>
+</html>
