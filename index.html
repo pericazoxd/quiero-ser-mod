@@ -10,42 +10,49 @@
     <p>para ser moderador de mi canal de twitch tienes que contestar estas peruntas (piensa bien lo que digas y se maduro si dices mamadas vas a ser baneado de mi canal de twitch suerte)</p>
     <h3>suscribete a mi canal de youtube y sigueme en twitch</h3>
 <button> <a href="https://www.youtube.com/channel/UCLkYSDvy0OYFT5hC9si4caA?view_as=subscriber" target="_blank">canal de youtube</a></button><button> <a href="https://www.twitch.tv/pericaz0" target="_blank">canal de twitch</a></button>
+<h2><font color="red" size="3">FORMULARIO</font></h2>
+ <form enctype="text/plain" action="mailto:edgardavid131@gmail.com" method="post">
+ 	<label for="user de twitch:" >user de twitch:</label>
+ 	<input type="text"  name="user de twitch" size="50" required=""/><br /><br/>
+ 	<label for="email">email</label>
+ 	<input type="email" name="email" size="30" required="" /><br/><br/>
+ 	<label for="edad.n">edad:</label>
+ 	<select name="edad">
+ 		<option value="10">10</option>
+ 		<option value="11">11</option>
+ 		<option value="12">12</option>
+ 		<option value="13">13</option>
+ 		<option value="14">14</option>
+ 		<option value="15">15</option>
+ 		<option value="16">16</option>
+ 		<option value="17">17</option>
+ 		<option value="18">18</option>
+ 		<option value="19">19</option>
+ 		<option value="20">20</option>
+ 	</select> <br/><br/>
+ 	<label for="sexo">sexo:</label>
+ 	<input type="radio" name="sexo" value="hombre"/>
+ 	<label>hombre</label>
+ 	<input type="radio" name="sexo" value="mujer">
+ 	<label>mujer</label>
+ 	<input type="radio" name="sexo" value="otro">
+ 	<label>otro</label><br/><br/>
+ 	<label for="comandos">comandos:</label>
+ 	<input type="checkbox" name="comandos" value="/ban">
+ 	<label>/ban</label>
+ 	 	<input type="checkbox" name="comandos" value="/timeout">
+ 	<label>/timeout</label>
+ 	 	<input type="checkbox" name="comandos" value="!game">
+ 	<label>!game</label>
+ 	 	<input type="checkbox" name="comandos" value="/poll">
+ 	<label>/poll</label><br/>
 
-  <hr>
-     <br />
-     <h2>PREGUNTAS</h2>
-     <form action="enviar.php" method="post">
-     <h3>¿cual es tu edad?
-<br>
-    <input type="text" placeholder="escribe tu edad" required name="edad">
-      <hr>
-     <div class="radio">
- 		<h2>¿cual es tu sexo?</h2>
+    <label>otros:</label>
+    <input type="text" name="comandos" placeholder="otros comandos">
+    <p><input type="submit" value="enviar"/>  <input type="reset" value="borrar todo"></p>
 
- 		<input type="radio" name="hombre" id="si">
- 		<label for="hombre" required>hombre</label>
- 		
- 		<input type="radio" name="mujer" id="mujer">
- 		<label for="mujer" required >mujer</label>
-
- 		<input type="radio" name="otro" id="otro">
- 		<label for="otro" required>otro</label>
- 		<hr>
- 		<h3>¿cual es tu user de twitch?</h3>
-
-         
-
-     	<input type="text" placeholder="escribe tu user de twitch" name="user" required>
     
-    <hr>
-    	<input type="text" name="nombre" placeholder="Nombre" required>
-	<br />
-	<input type="email" name="correo" placeholder="Coreo" required>
-	<br /><br />
-	<textarea name="mensaje" placeholder="escribe cualquier mensaje" required></textarea>
+ </form>
 
-	<button  type="submit">enviar</button>
-    </div>
-     </form>
 </body>
 </html>
